@@ -1,7 +1,7 @@
-import './App.css';
+import '../src/Intro.css';
 import profile from "./image/image.png"
 
-function App() {
+function Intro() {
   return (
     <div className="App">
     <nav className='bg-white sm:bg-black h-16'>
@@ -17,12 +17,12 @@ function App() {
     </>
     <div className=' text-center sm:text-left'>
       <h3 className='heading text-4xl 2xl:text-8xl xl:text-7xl lg:text-5xl'>Hello! I'm</h3>
-      <h2 className='name text-3xl font-bold text-4xl mt-3 2xl:text-8xl mt-4 xl:text-7xl mt-4 lg:text-5xl'>Shivam Kaushik</h2>
-      <h4 className='name text-2xl mt-3 font-regular 4xl mt-2 2xl:text-6xl mt-7 xl:text-5xl mt-4 lg:text-4xl mt-3'> Designer🖥 and Developer👩‍💻</h4>
+      <h2 className='name text-3xl font-bold 2xl:text-8xl mt-4 xl:text-7xl mt-4 lg:text-5xl'>Shivam Kaushik</h2>
+      <h4 className='name text-2xl mt-3 font-regular 2xl:text-6xl mt-7 xl:text-5xl mt-4 lg:text-4xl mt-3'> Designer🖥 and Developer👩‍💻</h4>
     </div>
     </div>
     </div>
   );
 }
 
-export default App;
+export default Intro;
