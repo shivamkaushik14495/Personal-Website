@@ -1,15 +1,22 @@
 import React from 'react'
 import "../Intro.css"
-import reactangle from '../image/rectangle.png'
+import ProjectsDetail from './ProjectDescription'
+
+
+function Block(props){
+  return <div> <a href= {props.link}><img src={props.thumbnail} alt = {props.projectName} className='sm:max-w-xs xl:max-w-md hover:scale-110 active:scale-90 transition '/></a></div>
+}
+
+function BlockPlate(value){
+  return <Block link = {value.link} thumbnail = {value.thumbnail} projectName = {value.projectName}/>
+}
 
 const Projects = () => {
   return (
     <>
-        <h2 className='text-4xl py-20 font-bold text-center'>My Projects</h2>
+        <h2 className='text-4xl py-32 font-bold text-center'>My Projects</h2>
         <div className='project_space grid grid-cols-1 gap-y-10 lg:grid lg:grid-cols-3 items-center text-center justify-items-center'>
-          <div> <a href='google.com'><img src={reactangle} alt = "placeholder" className='sm:max-w-xs xl:max-w-md'></img></a></div>
-          <div> <a href='google.com'><img src={reactangle} alt = "placeholder" className='sm:max-w-xs xl:max-w-md'></img></a></div>
-          <div> <a href='google.com'><img src={reactangle} alt = "placeholder" className='sm:max-w-xs xl:max-w-md'></img></a></div>
+        {ProjectsDetail.map(BlockPlate)}
         </div>
     </>
   )

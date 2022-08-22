@@ -19,6 +19,7 @@ function Intro() {
       <h3 className='heading text-4xl 2xl:text-8xl xl:text-7xl lg:text-5xl'>Hello! I'm</h3>
       <h2 className='name text-3xl font-bold 2xl:text-8xl mt-4 xl:text-7xl mt-4 lg:text-5xl'>Shivam Kaushik</h2>
       <h4 className='name text-2xl mt-3 font-regular 2xl:text-6xl mt-7 xl:text-5xl mt-4 lg:text-4xl mt-3'> Designer🖥 and Developer👩‍💻</h4>
+      <a href = "mailto: shivamkaushik14495@gmail.com" className='py-6 px-16 rounded-xl bg-blue-800 text-white text-2xl relative top-20 font-bold'>Contact Me</a>
     </div>
     </div>
     </div>

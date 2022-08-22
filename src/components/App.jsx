@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
     <Intro/>
-    {/* <Projects/> */}
+    <Projects/>
     <Footer/>
     </>
   )
