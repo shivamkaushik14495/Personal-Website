@@ -4,7 +4,7 @@ import ProjectsDetail from './ProjectDescription'
 
 
 function Block(props){
-  return <div> <a href= {props.link}><img src={props.thumbnail} alt = {props.projectName} className='sm:max-w-xs xl:max-w-md hover:scale-110 active:scale-90 transition '/></a></div>
+  return <div> <a href= {props.link}><img src={props.thumbnail} alt = {props.projectName} className='sm:max-w-xs xl:max-w-md hover:scale-95 active:scale-90 transition '/></a></div>
 }
 
 function BlockPlate(value){
